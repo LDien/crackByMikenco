@@ -4,7 +4,7 @@
 #!author=Lam Dien
 #!homepage=https://t.me/shadowrocketunlockproapps
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
-# Cập nhật: 2024-12-12
+# Cập nhật: 2025-07-14
 
 [General]
 bypass-system = true
@@ -33,5 +33,5 @@ spotify-json = type=http-request,type=http-request,pattern=^https:\/\/spclient\.
 spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/quocchienn/Make/refs/heads/crack/spotify-proto.js,script-update-interval=0
 WinkVipCrack=type=http-response,pattern=^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json,requires-body=1,script-path=https://raw.githubusercontent.com/quocchienn/co_tien_khong/refs/heads/Module/WinkVipCrack.js
 
-# YouTube 去广告 + PIP + Nền
+#! YouTube 去广告 + PIP + Nền
 youtube.response=type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch),requires-body=1,max-size=-1,binary-body-mode=1,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.response.js,argument={"lyricLang":"vi","captionLang":"vi","blockUpload":false,"blockImmersive":false,"debug":false}
